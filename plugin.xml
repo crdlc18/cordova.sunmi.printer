@@ -12,17 +12,12 @@
 
     <platform name="android">
 
-        <source-file src="src/android/SunmiPrinter.java" target-dir="src/com/sunmi/printer" />
-        <aidl src="src/android/com/sunmi/extprinterservice/ExtPrinterService.aidl" target-dir="src/com/sunmi/extprinterservice" />
+        <source-file src="src/android/SunmiPrinter.java" target-dir="src/android/" />
+        <aidl src="src/android/com/sunmi/extprinterservice/ExtPrinterService.aidl" target-dir="src/com/sunmi/extprinterservice"/>
         
         <config-file target="AndroidManifest.xml" parent="/manifest">
             <uses-permission android:name="android.permission.BIND_PRINT_SERVICE" />
-            <source-file src="src/android/SunmiPrinter.java" target-dir="src/android/" />
-            <source-file src="src/android/com/sunmi/extprinterservice/ExtPrinterService.aidl" target-dir="src/com/sunmi/extprinterservice" />
-            
             <!-- Add other permissions as needed -->
-
-
         </config-file>
     </platform>
 
