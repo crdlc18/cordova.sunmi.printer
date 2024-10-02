@@ -7,7 +7,7 @@ import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
-import cordova.sunmi.printer.com.sunmi.extprinterservice.ExtPrinterService;
+import com.sunmi.extprinterservice.ExtPrinterService;
 
 public class SunmiPrinter extends Activity {
 
