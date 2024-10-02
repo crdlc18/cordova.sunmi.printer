@@ -19,7 +19,7 @@
             <uses-permission android:name="android.permission.BIND_PRINT_SERVICE" />
             <source-file src="src/android/SunmiPrinter.java" target-dir="src/android/" />
             <source-file src="src/android/com/sunmi/extprinterservice/ExtPrinterService.aidl" target-dir="src/com/sunmi/extprinterservice" />
-            <aidl-file src="src/android/com/sunmi/extprinterservice/ExtPrinterService.aidl" target-dir="src/com/sunmi/extprinterservice/" />
+            
             <!-- Add other permissions as needed -->
 
 
