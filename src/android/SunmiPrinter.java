@@ -11,7 +11,7 @@ import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
 import org.json.JSONArray;
 import org.json.JSONException;
-import com.sunmi.extprinterservice.ExtPrinterService;
+import com.sunmi.printer.extprinterservice.ExtPrinterService;
 
 public class SunmiPrinter extends Activity {
 
