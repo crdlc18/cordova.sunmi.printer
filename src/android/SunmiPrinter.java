@@ -1,5 +1,5 @@
+package cordova.sunmi.printer.com.sunmi.printer.extprinterservice;
 package cordova.sunmi.printer;
-package cordova.sunmi.printer.com.sunmi.extprinterservice;
 import android.app.Activity;
 import android.content.ComponentName;
 import android.content.Context;
