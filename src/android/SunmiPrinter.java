@@ -1,5 +1,5 @@
 package cordova.sunmi.printer;
-package com.sunmi.extprinterservice;
+package cordova.sunmi.printer.com.sunmi.extprinterservice;
 import android.app.Activity;
 import android.content.ComponentName;
 import android.content.Context;
@@ -8,6 +8,10 @@ import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
+import org.apache.cordova.CallbackContext;
+import org.apache.cordova.CordovaPlugin;
+import org.json.JSONArray;
+import org.json.JSONException;
 import com.sunmi.extprinterservice.ExtPrinterService;
 
 public class SunmiPrinter extends Activity {
